@@ -38,7 +38,7 @@ Table of contents:
  */
 
 #header-wrapper, #navigation-wrapper, #main-wrapper, #footer-wrapper { padding-top: 10px; padding-bottom: 10px; }
-
+.container { max-width:760px; }
 /**
  * 2. Typography
  */
