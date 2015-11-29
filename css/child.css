@@ -43,7 +43,7 @@ Table of contents:
  * 2. Typography
  */
 h1#page-title { text-transform: uppercase; font-size: 1.7em; line-height: 1.1em; }
-.node-type-article h1#page-title:after { content: '&#xf05a;'; }
+.node-type-article h1#page-title:after { content: '\f05a'; font-family: FontAwesome; margin-left: 10px; color: grey; }
 h3.subtitle { font-family: "linden hill"; font-size: 1.5em; color: grey; }
 p.callout { font-family: "Linden Hill"; font-size: 1.7em; line-height: 1.2em; font-style: italic; }
 
