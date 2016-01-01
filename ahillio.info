@@ -12,6 +12,7 @@ regions[highlighted]    = Highlighted
 regions[content]        = Content
 regions[sidebar_first]  = First Sidebar
 regions[sidebar_second] = Second Sidebar
+regions[offcanvas]      = Off Canvas
 regions[prefooter1]     = Prefooter 1
 regions[prefooter2]		= Prefooter 2
 regions[utility]		= Utility

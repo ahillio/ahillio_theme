@@ -111,6 +111,15 @@ div.error, .error { color: #cc0000; }
 /**
  * 4. Navigation
  */
+.navbar-toggle { display: block; }
+.offcanvas { background-color: #333; color: white; width: 300px; right: -300px; }
+.offcanvas.in {
+  display: block;
+  right: 0;
+  transition-property: right;
+  transition-duration: 0.5s;
+  transition-timing-function: linear;
+}
 #navigation li ul.main-menu li { line-height: 40px; }
 #navigation .region-navigation { width: 100px; float: right; text-align: right; }
 /*.ultimenu-basic .region*/section.ultimenu-flyout { width: 300px; padding: 0; font-family: 'oxygen'; font-size: 1.2em; }
@@ -301,13 +310,13 @@ li.active a#quicktabs-tab-homepage-3 { background-size: 190px; }
   #quicktabs-tabpage-homepage-3 { position: relative; top: -300px; left: 220px; }
 }
 
-.panel { box-shadow: none; }
-.panel-default>.panel-heading, .panel-default { background-color: white; border-color: white; }
-.panel-default>.panel-heading+.panel-collapse>.panel-body { border-top-color: white; }
-.panel-body { padding-top: 0; }
-.panel-body h2 { margin-bottom: 5px; }
-.panel-body p { line-height: 1.4em; }
-[data-toggle="collapse"] {
+#accordion > .panel { box-shadow: none; }
+#accordion > .panel-default>.panel-heading, .panel-default { background-color: white; border-color: white; }
+#accordion > .panel-default>.panel-heading+.panel-collapse>.panel-body { border-top-color: white; }
+#accordion > .panel > .panel-collapse .panel-body { padding-top: 0; }
+#accordion > .panel > .panel-collapse .panel-body h2 { margin-bottom: 5px; }
+#accordion > .panel > .panel-collapse .panel-body p { line-height: 1.4em; }
+#accordion > .panel > .panel-heading > h2 [data-toggle="collapse"] {
   -webkit-transition-property;
   background-size, background-position-x;
   background-repeat: no-repeat;
@@ -316,7 +325,7 @@ li.active a#quicktabs-tab-homepage-3 { background-size: 190px; }
   text-indent: -999em;
   display: block;
 }
-[data-toggle="collapse"].collapsed {
+#accordion > .panel > .panel-heading > h2 [data-toggle="collapse"].collapsed {
    -webkit-transition-duration: .2s;
   background-position-x: 187px;
 }
@@ -329,14 +338,14 @@ li.active a#quicktabs-tab-homepage-3 { background-size: 190px; }
 #headingFour [data-toggle="collapse"] { background-image: url(../images/9northfield.png); background-size: 120px; height: 320px; }
 #headingFour [data-toggle="collapse"].collapsed { background-size: 60px; height: 60px; }
 
-.panel.panel-default { position: relative; height: 250px; }
-.panel-collapse {
+#accordion > .panel-default { position: relative; height: 250px; }
+#accordion > .panel > .panel-collapse {
   position: absolute;
   top: 10px;
   width: 460px;
   right: 67px;
 }
-.collapsing { -webkit-transition-duration: .2s; -o-transition-duration: .2s; transition-duration: .2s; }
+#accordion > .collapsing { -webkit-transition-duration: .2s; -o-transition-duration: .2s; transition-duration: .2s; }
 /*.collapse { opacity: 0; -webkit-transition: opacity 2s ease-in-out; }
 .collapse.in { opacity: 1; -webkit-transition: opacity 2s ease-in-out; }*/
-
+/*stuff*/

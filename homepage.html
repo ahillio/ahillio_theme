@@ -1,0 +1,120 @@
+<div class="bs-example" data-example-id="collapse-accordion">
+	<div class="panel-group" id="accordion" role="tablist">
+		<div class="panel panel-default">
+			<div class="panel-heading" id="headingOne" role="tab">
+				<h2 class="panel-title"><a data-parent="#accordion" data-toggle="collapse" href="#collapseOne" role="button">I'm a freelance web developer </a></h2>
+			</div>
+			<div  class="panel-collapse collapse in" id="collapseOne" role="tabpanel">
+				<div class="panel-body">
+				    <h2>I'm a freelance web developer</h2>
+					<p>This satisfies some of my geeky-techno-engineering interests and I get to help great people do their good work. &nbsp;It's pretty cool.</p>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" id="headingTwo" role="tab">
+				<h2 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseTwo" role="button">Harmonodes </a></h2>
+			</div>
+			<div class="panel-collapse collapse" id="collapseTwo" role="tabpanel">
+				<div class="panel-body">
+				    <h2>Harmonodes</h2>
+					<p>Ecological systems, as opposed to ecocidal systems, are the most viable way of meeting humanity's needs. This centers around the synergy of what I call&nbsp;harmonodes&nbsp;— facilities of any sort that function in ecological integrity and optimal performance without yielding adverse effects. &nbsp;This report will define the harmonode concept and explores methodological principles for utilizing ecodesign in economic development, using ecodesign as an axis for social change.</p>
+					<!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+                      Sneak Preview
+                    </button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Harmonodes</h4>
+                          </div>
+                          <div class="modal-body">
+                            <div class="panel-group" id="harmonodeAccordion" role="tablist" aria-multiselectable="true">
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="harmonodeOne">
+                                      <h4 class="panel-title">
+                                        <a role="button" data-toggle="collapse" data-parent="#harmonodeAccordion" href="#hcollapseOne" aria-expanded="true" aria-controls="hcollapseOne">
+                                         Three Angles 
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="hcollapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="harmonodeOne">
+                                      <div class="panel-body">
+                                        <ul>
+                                          <li><a tabindex="0" class="btn hangle" role="button" data-toggle="popover" data-trigger="focus" title="angle one" data-content="And here's some amazing content. It's very engaging. Right?">Angle One</a></li>
+                                          <li><a tabindex="0" class="btn hangle" role="button" data-toggle="popover" data-trigger="focus" title="angle two" data-content="stuff">Angle Two</a></li>
+                                          <li><a tabindex="0" class="btn hangle" role="button" data-toggle="popover" data-trigger="focus" title="angle three" data-content="more stuff">Angle Three</a></li>
+                                    </ul>
+                                       </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="harmonodeTwo">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#harmonodeAccordion" href="#hcollapseTwo" aria-expanded="false" aria-controls="hcollapseTwo">
+                                          Collapsible Group Item #2
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="hcollapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="harmonodeTwo">
+                                      <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="panel panel-default">
+                                    <div class="panel-heading" role="tab" id="harmonodeThree">
+                                      <h4 class="panel-title">
+                                        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#harmonodeAccordion" href="#hcollapseThree" aria-expanded="false" aria-controls="hcollapseThree">
+                                          Collapsible Group Item #3
+                                        </a>
+                                      </h4>
+                                    </div>
+                                    <div id="hcollapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="harmonodeThree">
+                                      <div class="panel-body">
+                                        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                          </div>
+                          <div class="modal-footer">
+                            <span>Like this? Then perhaps you'd like to:</span>
+                            <button type="button" class="btn btn-primary">Do something</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" id="headingThree" role="tab">
+				<h2 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseThree" role="button">Pie in the Cloud </a></h2>
+			</div>
+			<div class="panel-collapse collapse" id="collapseThree" role="tabpanel">
+				<div class="panel-body">
+				    <h2>Pie in the Cloud</h2>
+					<p>This blog will explore idealism and pragmatism, acknowledging that many great things (such as the Internet and democracy) were once <em>pie in the sky</em> ideas.  Pie in the Cloud is about putting thought into action, turning <em>pie in the sky</em> into pie on the table.</p>
+				</div>
+			</div>
+		</div>
+		<div class="panel panel-default">
+			<div class="panel-heading" id="headingFour" role="tab">
+				<h2 class="panel-title"><a class="collapsed" data-parent="#accordion" data-toggle="collapse" href="#collapseFour" role="button">Lab Space </a></h2>
+			</div>
+			<div class="panel-collapse collapse" id="collapseFour" role="tabpanel">
+				<div class="panel-body">
+					<h2>Lab Space</h2>
+					<p>I do my enterprising at 9 Northfield Street and I'd love to tell you more about it but I'm a bit busy right now making other people's websites.  Go figure.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+

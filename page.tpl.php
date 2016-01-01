@@ -1,5 +1,5 @@
 <?php if (!$ajax): ?>
-<div id="wrapper">
+<div id="wrapper" class="canvas">
 
   <div id="skip-link">
     <a href="#main-content" class="element-invisible element-focusable"><?php print t('Skip to main content'); ?></a>
@@ -85,6 +85,7 @@
 
   </div></div></div> <!-- /.row, #main, #wrapper-main -->
 
+
 <?php if ($page['prefooter1']): ?>
   <div id="prefooter1-wrapper">
     <section id="prefooter1" role="contentinfo" class="container">
@@ -123,4 +124,11 @@
 </div>
 
 </div> <!-- /#wrapper -->
+
+  <?php if ($page['offcanvas']): ?>
+    <div id="offCanvas" class="offcanvas navmenu-fixed-right">
+      <?php print render($page['offcanvas']); ?>
+    </div>
+  <?php endif; ?>
+
 <?php endif; /* !$ajax */ ?>

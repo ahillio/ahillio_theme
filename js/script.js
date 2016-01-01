@@ -9,7 +9,8 @@
 
 /* 1.1 jQuery(document).ready() */
 jQuery(document).ready(function($){
-
+	$('[data-toggle="tooltip"]').tooltip();
+	$('[data-toggle="popover"]').popover();
 });
 
 /* 1.3 jQuery(window).load() */
